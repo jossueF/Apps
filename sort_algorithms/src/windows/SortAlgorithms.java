@@ -143,6 +143,7 @@ public class SortAlgorithms extends JFrame implements PropertyChangeListener {
 		mntmInsertionsort.setIcon(new ImageIcon(SortAlgorithms.class.getResource("/resources/start.png")));
 		mnFile.add(mntmInsertionsort);
 
+		mnFile.addSeparator();
 		mntmExit = new JMenuItem("Exit");
 		mntmExit.setIcon(new ImageIcon(SortAlgorithms.class.getResource("/resources/exit.png")));
 		mnFile.add(mntmExit);
